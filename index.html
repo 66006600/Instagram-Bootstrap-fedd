@@ -13,7 +13,7 @@
 
 <body>
     <div class="container-fluid">
-        <div class="header">
+        <div class="header p-3">
             <nav class="navbar navbar-light bg-light">
 
                 <a class="navbar-brand">
@@ -70,22 +70,18 @@
             </nav>
         </div>
 
-        <div class="d-flex justify-content-center">
-            <ul class="nav nav-pills p-2">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#pag1">
-                        <i class="bi bi-grid-3x3-gap-fill"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pag2">
-                        <i class="bi bi-grid-3x3-gap"></i>
-                    </a>
-                </li>
-            </ul>
+        <div class="container">
+
+            <nav class="d-flex justify-content-center">
+                <ul class="pagination">
+                    <li class="disabled"><a href="#pag1"><i class="bi bi-grid-3x3-gap-fill"></i></a></li>
+                    <li><a href="#pag2"><i class="bi bi-grid-3x3-gap"></i></a></li>
+                </ul>
+            </nav>
+
         </div>
 
-        <div class=container col-1>
+        <div id="pag1" class="container">
             <div class="col w-50 p-3 m-4 mx-auto style=width:80px height:80px">
                 <div class="card ps-3 pt-1">
                     <h5 class="container">Bella la noche</h5>
@@ -140,41 +136,38 @@
 
         </div>
 
-        <div class="container-fluid">
-
-            <div class="grid-container" id="pag2">
-                <div class="grid-item">
-                    <img src="https://www.cultura.gob.cl/wp-content/uploads/2021/12/thumbnail__mg_7877-300x300.jpg">
-                </div>
-
-                <div class="grid-item">
-                    <img src="https://i.ebayimg.com/thumbs/images/g/FMYAAOSwJfRf8t48/s-l300.jpg">
-                </div>
-                <div class="grid-item">
-                    <img
-                        src="https://i1.wp.com/www.proandroid.com/wp-content/uploads/2020/02/fondo-pantalla-samsung-galaxy-z-flip-300x300.png?resize=300%2C300&ssl=1">
-                </div>
-                <div class="grid-item">
-                    <img
-                        src="https://lh3.googleusercontent.com/S0WTMZJEOBZuWvOGB3KwVYmJidT7K81oJXzpD44KuArFlnpNwtmJhXTqbkNMovAI4CY=w300">
-                </div>
-                <div class="grid-item">
-                    <img
-                        src="https://www.todofondos.net/wp-content/uploads/galaxy-planet-wallpaper-fondos-de-pantalla-en-2019-fondo-de-pantalla-de-planetas.-imagen-de-galaxia-300x300.jpg ">
-                </div>
-                <div class="grid-item">
-                    <img
-                        src="https://imageio.forbes.com/blogs-images/alexknapp/files/2013/01/300px-Astronaut-EVA15.jpg?format=jpg&width=300">
-                </div>
-                <div class="grid-item">
+        <div id="pag2" class="container">
+            <div class="row">
+                <div class="col pt-4">
                     <img src="https://fivechanges.com//wp-content/uploads/2014/09/astronaut-300x300.jpg">
                 </div>
-                <div class="grid-item">
-                    <img
-                        src="https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2017/08/Ref2213/Ref2213.jpg/thumbnails/300x300">
+                <div class="col pt-4">
+                    <img src="https://fivechanges.com//wp-content/uploads/2014/09/astronaut-300x300.jpg">
                 </div>
-                <div class="grid-item">
+                <div class="col pt-4">
+                    <img src="https://fivechanges.com//wp-content/uploads/2014/09/astronaut-300x300.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-4">
                     <img src="https://i.ebayimg.com/thumbs/images/g/FMYAAOSwJfRf8t48/s-l300.jpg">
+                </div>
+                <div class="col pt-4">
+                    <img src="https://i.ebayimg.com/thumbs/images/g/FMYAAOSwJfRf8t48/s-l300.jpg">
+                </div>
+                <div class="col pt-4">
+                    <img src="https://i.ebayimg.com/thumbs/images/g/FMYAAOSwJfRf8t48/s-l300.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-4">
+                    <img src="https://www.cultura.gob.cl/wp-content/uploads/2021/12/thumbnail__mg_7877-300x300.jpg">
+                </div>
+                <div class="col pt-4">
+                    <img src="https://www.cultura.gob.cl/wp-content/uploads/2021/12/thumbnail__mg_7877-300x300.jpg">
+                </div>
+                <div class="col pt-4">
+                    <img src="https://www.cultura.gob.cl/wp-content/uploads/2021/12/thumbnail__mg_7877-300x300.jpg">
                 </div>
             </div>
         </div>
